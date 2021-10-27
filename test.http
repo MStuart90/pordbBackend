@@ -1,4 +1,4 @@
-POST http://localhost:4000/app/contribute
+POST  http://localhost:4000/app/contribute
 Content-Type: application/json
 
 
@@ -11,8 +11,16 @@ Content-Type: application/json
 
 # }
 
+# {
+#     "companyName":"Afri Host",
+#     "link":"https://www.afrihost.com/",
+#     "reportEmailWebform":"support@afrihost.com",
+#     "termsOfServiceIpPolicy":"https://www.afrihost.com/site/page/terms_and_conditions",
+#     "comments":"n/a"
+# }
+
 {
-    "companyName":"Afri Host",
+    "companyName":"Matt Demo",
     "link":"https://www.afrihost.com/",
     "reportEmailWebform":"support@afrihost.com",
     "termsOfServiceIpPolicy":"https://www.afrihost.com/site/page/terms_and_conditions",
